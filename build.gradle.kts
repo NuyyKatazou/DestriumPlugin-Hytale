@@ -5,8 +5,8 @@ plugins {
 }
 
 group = "fr.amazonia"
-version = "0.0.1-SNAPSHOT"
-description = "DestriumPlugin"
+version = "0.0.1-SNAPSHOT" //1 Version
+description = "DestriumMod"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 val appData = System.getenv("APPDATA") ?: (System.getenv("HOME") + "/.var/app/com.hypixel.HytaleLauncher/data")

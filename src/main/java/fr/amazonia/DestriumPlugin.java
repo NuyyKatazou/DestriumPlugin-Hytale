@@ -19,7 +19,7 @@ public class DestriumPlugin extends JavaPlugin {
 
     @Override
     protected void setup() {
-        this.getCommandRegistry().registerCommand(new VersionCommand("destrium", "DestriumPlugin !", "DestriumPlugin : " + this.getManifest().getVersion().toString()));
+        this.getCommandRegistry().registerCommand(new VersionCommand("destrium", "DestriumPlugin !", "DestriumMod : " + this.getManifest().getVersion().toString()));
         this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, ExampleEvent::onPlayerReady);
     }
 }
