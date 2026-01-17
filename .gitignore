@@ -6,6 +6,7 @@ build/
 .kotlin
 HytaleServer.jar
 HytaleServer.aot
+/Patcher
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

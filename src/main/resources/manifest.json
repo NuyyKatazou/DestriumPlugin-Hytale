@@ -1,20 +1,18 @@
 {
-  "Group": "fr.amazonia",
-  "Name": "DestriumPlugin",
-  "Version": "0.0.1",
-  "Description": "DestriumPlugin is a Plugin based on Exploration, Building, Tools and Machines !",
+  "Group": "${plugin_group}",
+  "Name": "${plugin_name}",
+  "Version": "${plugin_version}",
+  "Description": "${plugin_description}",
   "Authors": [
     {
-      "Name": "NuyyKatazou",
-      "Email": "your.email@example.com",
-      "Url": "https://your-website.com"
+      "Name": "${plugin_author}"
     }
   ],
-  "Website": "https://your-plugin-website.com",
-  "ServerVersion": "*",
+  "Website": "${plugin_website}",
+  "ServerVersion": "${server_version}",
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,
-  "IncludesAssetPack": false,
-  "Main": "fr.amazonia.DestriumPlugin"
+  "IncludesAssetPack": true,
+  "Main": "${plugin_main_entrypoint}"
 }
