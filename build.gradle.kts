@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "fr.amazonia"
-version = "0.0.2-SNAPSHOT" //2 Version
+version = "0.0.3-SNAPSHOT" //3 Version
 description = "DestriumMod"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
