@@ -4,7 +4,7 @@
   },
   "Id": "Destrium_Block",
   "MaxStack": 100,
-  "Icon": "Icons/ItemsGenerated/destrium_block.png",
+  "Icon": "Icons/ItemsGenerated/Destrium_Block.png",
   "Categories": [
     "Blocks.Rocks"
   ],
@@ -18,14 +18,14 @@
     "Flags": {},
     "Gathering": {
       "Breaking": {
-        "GatherType": "Rocks",
-        "ItemId": "destrium_block"
+        "GatherType": "Destrium_Block",
+        "ItemId": "Destrium_Block"
       }
     },
     "BlockParticleSetId": "Stone",
     "Textures": [
       {
-        "All": "BlockTextures/destrium_block.png"
+        "All": "BlockTextures/Destrium_Block.png"
       }
     ],
     "ParticleColor": "#aeae8c",
@@ -36,5 +36,7 @@
     {
       "Id": "Rock"
     }
-  ]
+  ],
+  "Quality": "Epic",
+  "DropOnDeath": false
 }
