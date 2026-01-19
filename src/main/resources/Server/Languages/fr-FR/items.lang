@@ -1,4 +1,11 @@
 destrium_block.name = Bloc de Destrium
 
+
+
 destrium_ingot.name = Lingot de Destrium
-destrium_ingot.description = Lingot de Destrium
+
+
+
+
+
+destrium_ingot.description = <color is="#004cff">Amazonite \n<color is="#1aff00"><b> >> Destrium </b>\n<color is="#ff8c00">Argonide
