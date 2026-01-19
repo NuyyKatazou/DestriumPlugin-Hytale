@@ -1,0 +1,22 @@
+{
+  "TranslationProperties": {
+    "Name": "items.destrium_ingot.name",
+    "Description": "items.destrium_ingot.description"
+  },
+  "Id": "Destrium_Ingot",
+  "Icon": "Icons/ItemsGenerated/Destrium_Ingot.png",
+  "Model": "Items/Destrium_Ingot/model.blockymodel",
+  "Texture": "Items/Destrium_Ingot/model_texture.png",
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "Categories": [
+    "Items"
+  ],
+  "ResourceTypes": [
+    {
+      "Id": "Metal_Bars"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "DropOnDeath": false
+}
