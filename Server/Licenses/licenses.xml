@@ -485,6 +485,18 @@
       </licenses>
     </dependency>
     <dependency>
+      <groupId>org.joml</groupId>
+      <artifactId>joml</artifactId>
+      <version>1.10.8</version>
+      <licenses>
+        <license>
+          <name>MIT License</name>
+          <url>https://www.opensource.org/licenses/mit-license.php</url>
+          <file>mit license - mit-license.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
       <groupId>org.mongodb</groupId>
       <artifactId>bson</artifactId>
       <version>4.2.3</version>
@@ -493,6 +505,24 @@
           <name>The Apache License, Version 2.0</name>
           <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
           <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.rocksdb</groupId>
+      <artifactId>rocksdbjni</artifactId>
+      <version>10.4.2</version>
+      <licenses>
+        <license>
+          <name>Apache License 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.html</file>
+        </license>
+        <license>
+          <name>GNU General Public License, version 2</name>
+          <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+          <distribution>repo</distribution>
         </license>
       </licenses>
     </dependency>

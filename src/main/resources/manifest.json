@@ -1,18 +1,18 @@
 {
-  "Group": "${plugin_group}",
-  "Name": "${plugin_name}",
-  "Version": "${plugin_version}",
-  "Description": "${plugin_description}",
-  "Authors": [
-    {
-      "Name": "${plugin_author}"
-    }
-  ],
-  "Website": "${plugin_website}",
-  "ServerVersion": "${server_version}",
-  "Dependencies": {},
-  "OptionalDependencies": {},
-  "DisabledByDefault": false,
-  "IncludesAssetPack": true,
-  "Main": "${plugin_main_entrypoint}"
+    "Group": "fr.amazonia",
+    "Name": "DestriumMod",
+    "Version": "0.0.4-SNAPSHOT",
+    "Description": "${plugin_description}",
+    "Authors": [
+        {
+            "Name": "${plugin_author}"
+        }
+    ],
+    "Website": "${plugin_website}",
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true,
+    "Dependencies": {},
+    "OptionalDependencies": {},
+    "ServerVersion": "${server_version}",
+    "Main": "fr.amazonia.DestriumPlugin"
 }
