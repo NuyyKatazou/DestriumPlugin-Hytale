@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "items.destrium_block.name"
+    "Name": "blocks.destrium_block.name"
   },
   "Id": "Destrium_Block",
   "MaxStack": 100,

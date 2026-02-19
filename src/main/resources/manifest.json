@@ -1,6 +1,6 @@
 {
-    "Group": "fr.amazonia",
-    "Name": "DestriumMod",
+    "Group": "${plugin_group}",
+    "Name": "${plugin_name}",
     "Version": "0.0.4-SNAPSHOT",
     "Description": "${plugin_description}",
     "Authors": [
@@ -11,8 +11,10 @@
     "Website": "${plugin_website}",
     "DisabledByDefault": false,
     "IncludesAssetPack": true,
-    "Dependencies": {},
+    "Dependencies": {
+        "Hytale:EntityModule": "*"
+    },
     "OptionalDependencies": {},
     "ServerVersion": "${server_version}",
-    "Main": "fr.amazonia.DestriumPlugin"
+    "Main": "${plugin_main_entrypoint}"
 }
