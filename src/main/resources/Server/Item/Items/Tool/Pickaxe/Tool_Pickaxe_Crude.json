@@ -7,12 +7,12 @@
     "Items.Tools"
   ],
   "Quality": "Common",
-  "ItemLevel": 10,
+  "ItemLevel": 5,
   "Icon": "Icons/ItemsGenerated/Tool_Pickaxe_Crude.png",
   "Model": "Items/Tools/Pickaxe/Crude.blockymodel",
   "Texture": "Items/Tools/Pickaxe/Crude_Texture.png",
   "Recipe": {
-    "TimeSeconds": 1,
+    "TimeSeconds": 0,
     "KnowledgeRequired": false,
     "Input": [
       {
@@ -61,7 +61,8 @@
       },
       {
         "Power": 0.25,
-        "GatherType": "Rocks"
+        "GatherType": "Rocks",
+        "Quality": 1
       },
       {
         "Power": 0.5,
@@ -70,6 +71,38 @@
       {
         "Power": 0.084,
         "GatherType": "VolcanicRocks"
+      },
+      {
+        "Power": 0.125,
+        "GatherType": "OreCopper"
+      },
+      {
+        "Power": 0.084,
+        "GatherType": "OreIron"
+      },
+      {
+        "Power": 0.084,
+        "GatherType": "OreSilver"
+      },
+      {
+        "Power": 0.084,
+        "GatherType": "OreGold"
+      },
+      {
+        "Power": 0.063,
+        "GatherType": "OreThorium"
+      },
+      {
+        "Power": 0.063,
+        "GatherType": "OreCobalt"
+      },
+      {
+        "Power": 0.05,
+        "GatherType": "OreAdamantite"
+      },
+      {
+        "Power": 0.042,
+        "GatherType": "OreMithril"
       },
       {
         "Power": 0.28,

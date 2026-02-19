@@ -1,7 +1,7 @@
 {
     "Group": "${plugin_group}",
     "Name": "${plugin_name}",
-    "Version": "0.0.4-SNAPSHOT",
+    "Version": "0.0.5-SNAPSHOT",
     "Description": "${plugin_description}",
     "Authors": [
         {
